@@ -1,0 +1,131 @@
+<html>
+	<head>
+		<title>Form Elements</title>
+	</head>
+	<body>
+		
+		<h3>Form Elements</h3>
+
+		<imput />
+
+
+		<form>
+			<label for="firstname">First name</label>
+			<input type="text" name="firstname" id="firstname" class="" placeholder="Enter your first name" disabled/>
+			<br/><br/>
+			<label for="lastname">last name</label>
+			<input type="text" name="lastname" id="lastname" class=""  placeholder="Enter Your Last Name" readonly/>
+			<br/><br/>
+			<label for="age">Age</label>
+			<input type="number" name="age" id="age" class=" "/>
+			<br/><br/>
+			<label for="password">password</label>
+			<input type="password" name="password" id="password" class=" " placeholder="Enter your password"/>
+			<br/><br/>
+			<label>Gender</label>
+			<input type="radio" name="gender" id="genderm" class=" " value="1"/><label for="genderm">male</label>
+			<input type="radio" name="gender" id="genderf" class=" " value="0" checked/><label for="genderf">female</label>
+			<input type="radio" name="gender" id="gendero" class=" " value="2"/><label for="gendero">other</label>
+
+			<br/><br/>
+			<label>Fruit</label>
+			<input type="radio" name="Fruit" id="Fruitap" class=" " value="1"/><label for="Fruitap">apple</label>
+			<input type="radio" name="Fruit" id="Fruitog" class=" " value="2"/ checked><label for="Fruitog">orange</label>
+			<input type="radio" name="Fruit" id="Fruitpp" class=" " value="3"/><label for="Fruitpp">Pineapple</label>
+			
+			<br/><br/>
+			<label>Choose Your Favorite Colour</label>
+			<input type="checkbox" name="favcolour" id="favrd" class=" " value="1" checked/><label for="favrd">red</label>
+			<input type="checkbox" name="favcolour" id="favgr" class=" " value="2"/><label for="favgr">green</label>
+			<input type="checkbox" name="favcolour" id="favbl" class=" " value="3"/><label for="favbl">blue</label>
+			<input type="checkbox" name="favcolour" id="favwh" class=" " value="1"/><label for="favwh">white</label>
+
+			
+			<br/><br/>
+
+			<label for="country">Citizen</label>
+				<select name="country" id="country" class="">
+					<option selected disabled>Choose Your Country</option>
+					<option value="mm">Myanmar</option>
+					<option value="thi">Thiland</option>
+					<option value="php">Phipline</option>
+					<option value="sri">Srilanka</option>
+				</select>
+
+				<br/><br/>
+
+			<label for="role">role</label>
+				<select name="role" id="role" class="" multiple>
+					<option value="1">Manager</option>
+					<option value="2">Editor</option>
+					<option value="3">Supervioser</option>
+					<option value="4">slaes</option>
+				</select>
+
+				<br/><br/>
+
+				<label for="dob">DOB</label>
+				<input type="date" name="dob" id="dob" class=""/>
+
+				<br/><br/>
+
+				<label for="bookingtime">Booking Time</label>
+				<input type="time" name="bookingtime" id="bookingtime" class=""/>
+
+				<br/><br/>
+
+				<label for="apt">Appointment</label>
+				<input type="datetime-local" name="apt" id="apt" class=""/>
+
+
+				<br/><br/>
+
+				<label for="volume">Volume</label>
+				<input type="range" name="volume" id="volume" class="" min="0" max="100" value="5" step="10" />
+
+				<br/><br/>
+
+				<label for="nrc">NRC</label>
+				<input type="file" name="nrc" id="nrc" class="" accept="image/*" capture="user"    multiple  />
+
+				<br/><br/>
+
+				<label for="vdo">Video</label>
+				<input type="file" name="vdo" id="vdo" class="" accept="video/*" capture="enviroment"       />
+
+				<br/><br/>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="" placeholder="Enter your email" />
+
+				<br/><br/>
+
+				<label for="bio">BIO</label>
+				<textarea name="bio" id="bio" class="" row="4" placeholder="Enter your bio" ></textarea>
+
+				<br/><br/>
+
+
+				<input type='text' name="test" id="test" class="" hidden />
+				<imput type="hidden"name="abc" id="abc" class=""  />
+
+				<br/><br/>
+				<input type="reset" namee="login" id="login" class="" value="Cancel"  />
+				<input type="button" namee="login" id="login" class="" value="Login"  />
+				<button type="button" name='signup'  id="signup" class="" >Register</button>
+
+				<input type="submit" namee="logins" id="logins" class="" value="submit"  />
+				<button type="button" name='signups'  id="signups" class="" >submit</button>
+
+
+
+
+		</form>
+
+
+
+	</body>
+</html>
+
+
+<!--stand alone attribute like as <Seleceted> <disabled> checked readonly hidden-->

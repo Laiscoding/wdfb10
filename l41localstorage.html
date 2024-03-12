@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Local Storage</title>
+	</head>
+	<body>
+		
+
+		<script type="text/javascript">
+
+      //local Stroge
+
+      // => create
+      // localStorage.setItem('name','aung');
+      // localStorage.setItem('age',27);
+      // localStorage.setItem('city','Yangon');
+
+      // => Update
+      // Method 1
+      // localStorage.setItem('name','kyaw kyaw');
+      //Method 2
+      // localStorage.city = "Mandalay";
+
+      // => Read
+
+      // Method 1
+
+      // const getname = localStorage.name;
+      // const getage = localStorage.age;
+      // const getcity = localStorage.city;
+
+      // console.log(getname,getage,getcity);
+      // console.log(typeof getname,typeof getage,typeof getcity);
+
+      // Method 2
+
+      // const name = localStorage.getItem('name');
+      // const age = localStorage.getItem('age');
+      // const city = localStorage.getItem('city');
+
+      // console.log(name,age,city);
+      // console.log(typeof name,typeof age,typeof city);
+      // => Delete
+
+      // Method 1 (Single Delete)
+      // localStorage.removeItem('age');
+      // localStorage.removeItem('name');
+      // localStorage.removeItem('city');
+
+      // Method 2 (All Delete)
+      // localStorage.clear();
+
+      // >-----------------------------------------------------------
+
+      // Session Storage
+
+        // => create
+      sessionStorage.setItem('name','aung');
+      sessionStorage.setItem('age',27);
+      sessionStorage.setItem('city','Yangon');
+
+      // => Update
+      // Method 1
+      sessionStorage.setItem('name','kyaw kyaw');
+      //Method 2
+      sessionStorage.city = "Mandalay";
+
+      // => Read
+
+      // Method 1
+
+      // const getname = sessionStorage.name;
+      // const getage = sessionStorage.age;
+      // const getcity = sessionStorage.city;
+
+      // console.log(getname,getage,getcity);
+      // console.log(typeof getname,typeof getage,typeof getcity);
+
+      // Method 2
+
+      // const name = sessionStorage.getItem('name');
+      // const age = sessionStorage.getItem('age');
+      // const city = sessionStorage.getItem('city');
+
+      // console.log(name,age,city);
+      // console.log(typeof name,typeof age,typeof city);
+      // => Delete
+
+      // Method 1 (Single Delete)
+      // sessionStorage.removeItem('age');
+      // sessionStorage.removeItem('name');
+      // sessionStorage.removeItem('city');
+
+      // Method 2 (All Delete)
+      // sessionStorage.clear();
+
+
+
+
+		</script>
+	</body>
+</html>
+<!-- 
+DataBase
+(i)tmp storage
+(ii)per storage
+
+
+Cookies                 Local Storage                    Session Storage
+4kb                     5-10-20mb(browser dependent)     5mb
+All Windows             All Windows                      Private to tag
+when user delete/timer  when user delete                 on tab close
+browser/server          browser                          browser 
+
+     -->
+
+     <!-- 22LS -->

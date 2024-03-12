@@ -1,0 +1,34 @@
+/*single selector (FA) */
+h2{
+	color:green;
+}
+
+
+
+/*Group Seloctor (,)*/
+h3,h4{
+	color:steelblue;
+	font-size: 20px;
+}
+
+/*ID Selector*/
+
+#myself{
+	color:violet;
+}
+#thd,#ygn,i{
+	color:steelblue;
+}
+span{
+	color:yellow;
+}
+.phone{
+	color:green;
+}
+.fontlg{ 
+	font-size:20px;
+ }
+
+
+
+/*Class Selector*/

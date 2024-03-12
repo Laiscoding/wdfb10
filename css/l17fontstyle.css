@@ -1,0 +1,103 @@
+/*Font integrate*/
+/*(i)Local Machine Integration*/
+/*(ii) Global Integration or Project folder intergration*/
+/*Universal selector*/
+/**{
+	cursor: pointer;
+}*/
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Stick&display=swap');*/
+
+/* local machine intergration*/
+
+/*body{
+	font-family:Arial;
+}*/
+
+/*.p1{
+	font-family: Arial;
+}*/
+
+/*.p2{
+	font-family: 'Time New Romean';
+}*/
+
+
+/*
+.p3{
+	font-family:  Arial, Century, 'time New Roman';
+}*/
+
+/*(ii) Global Integration or Project folder intergration*/
+
+/*body{
+	font-family: sans-serif, Stick ;
+}
+*/
+/**/
+.p2{
+	font-family:abc sans-serif, Stick;
+}
+
+
+@font-face{
+	font-family: abc;
+	src: url(./../fonts/Stick/Stick-Regular.tff);
+}
+
+.clickme{
+	text-decoration: none;
+}
+
+.clickme:hover{
+	text-decoration: underline;
+	font-size:30px;
+}
+
+.clickme:visited{
+	color:red;
+}
+
+.menutext{
+	font-family: Arial;
+	background-color: green;
+	text-decoration: none;
+	color:#fff;
+
+/*	padding: 10px;*/
+/*	  top&bottom	left&right	*/
+	padding:10px 20px;
+
+/*		    top right bottom left*/
+/*    padding:10px 20px 30px 40px ;*/
+
+padding-top: 10px;
+padding-right:10 px;
+padding-buttom: 10px;
+padding-left: 10px;
+
+border-radius:10px;
+
+/*transition: all 2s;*/
+transition: background-color 2s, color 5s;
+}
+
+.menutext:hover{
+	background-color: orange;
+	color: #000;
+}
+
+.imgdesign{
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+
+	transition: all 1s;
+}
+
+.imgdesign:hover{
+	width: 100px;
+	height:100px;
+}

@@ -1,0 +1,36 @@
+/*Pseudo elements (::)*/
+
+/*P{
+	color: blue;
+	font-size: 20px;
+	user-select: none;
+
+}*/
+
+/*.paragraph::first-line{
+	color: blue;
+	font-size: 20px;
+}*/
+
+/*.paragraph::first-letter{
+	color: blue;
+	font-size: 60px;
+}*/
+
+/*.paragraph::selection{
+	background-color: orange;
+	font:#fff;
+}*/
+
+.paragraph::before{
+	content:"ABC";
+	color: blue;
+	font-size: 60px;
+}
+
+.paragraph::after{
+	content:"efg";
+	color: blue;
+	font-size: 60px;
+
+}

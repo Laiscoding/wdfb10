@@ -1,0 +1,52 @@
+=>git
+
+=>One Times
+after git install
+git 
+git --version
+
+git config --global user.name "Lwin Moe Aung"
+git config --global user.email "mrlwinmoeforbusi1@gmail.com"
+
+=>SSH( Secure Shell )
+grnerate SSH key
+ssh-keygen
+
+
+=>github
+git int
+git remote add origin "git@github.com:Laiscoding/teslaproject.git"
+git -T git@github.com
+
+
+
+(as to you)
+git status
+git add -A
+git status
+git commit -m "my first project"
+git push -u origin master
+
+Update
+git status
+git add -A
+git status
+git commit -m "my first project"
+git push -u origin master
+
+clone
+git clone "git@github.com:Laiscoding/teslaproject.git"
+
+
+pull request
+git init
+git remote add origin "git@github.com:Laiscoding/teslaproject.git"
+git pull origin master
+
+
+12FN
+
+
+
+
+

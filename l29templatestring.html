@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Template String</title>
+	</head>
+	<body>
+		<ul>
+			<li>Name : Aung Aung</li>
+			<li>Age : 25</li>
+			<li>Job : Web Developer</li>
+			<li>City : Mandalay</li>
+		</ul>
+
+		<script type="text/javascript">
+			// var fullname; oki = undifined
+			// let fullname; oki = undifined
+			// const fullanme; error
+
+			// console.log(fullname);
+
+			const name = "Poe Ma Mi thar";
+			const age = 29
+			const job = "model"
+			const city = "Yangon"
+
+
+			let myliststyle;
+			// console.log(myliststyle);  //undifined
+
+			// myliststyle = "<h1>Hello World</h1>";
+			// myliststyle = "<h1>Hello Global</h1>";
+			// myliststyle = "<h1>Hello Human</h1>";
+
+			 // console.log(myliststyle); //<h1>Hello Human</h1> 
+			// Without tamplate string(``)
+			 myliststyle = "<ul>"+
+			 					"<li>Name :"+name+"</li>"+
+			 					"<li>Age :"+age+"</li>"+
+			 					"<li>Job :"+job+"</li>"+
+			 					"<li>City :"+city+"</li>"+
+			 				"</ul>"	
+
+
+
+
+			 document.write(myliststyle);
+			 // With tamplate string(``)
+
+			 myliststyle = `<ul>
+								<li>Name : ${name}</li>
+								<li>Age : ${age}</li>
+								<li>Job : ${job}</li>
+								<li>City : ${city}</li>
+							</ul>`
+
+			document.write(myliststyle);		
+
+		</script>
+
+
+
+	</body>
+</html>
